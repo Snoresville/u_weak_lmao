@@ -1,0 +1,107 @@
+"DOTAAbilities"
+{
+	//=================================================================================================================
+	// Strength Apex
+	//=================================================================================================================
+	"item_strength_boost"
+	{
+		// Ability Technical Aspect
+		// base script folder	: scripts/vscripts
+		// base texture folder	: resource/flash3/images/spellicons
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"1280"
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_strength_boost"
+		"AbilityTextureName"			"strength_boost"
+        "precache"
+		{
+			"soundfile"	"soundevents/game_sounds_items.vsndevts"
+		}
+
+		"ItemCost"						"9000"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+        "ItemStackable"					"1"
+        "ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemDisplayCharges"			"1"
+        "ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+	}
+	
+	//=================================================================================================================
+	// Agility Apex
+	//=================================================================================================================
+	"item_agility_boost"
+	{
+		// Ability Technical Aspect
+		// base script folder	: scripts/vscripts
+		// base texture folder	: resource/flash3/images/spellicons
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"1281"
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_agility_boost"
+		"AbilityTextureName"			"agility_boost"
+        "precache"
+		{
+			"soundfile"	"soundevents/game_sounds_items.vsndevts"
+		}
+
+		"ItemCost"						"9000"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+        "ItemStackable"					"1"
+        "ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemDisplayCharges"			"1"
+        "ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+	}
+	
+	//=================================================================================================================
+	// Intelligence Apex
+	//=================================================================================================================
+	"item_intelligence_boost"
+	{
+		// Ability Technical Aspect
+		// base script folder	: scripts/vscripts
+		// base texture folder	: resource/flash3/images/spellicons
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"1282"
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_intelligence_boost"
+		"AbilityTextureName"			"intelligence_boost"
+        "precache"
+		{
+			"soundfile"	"soundevents/game_sounds_items.vsndevts"
+		}
+
+		"ItemCost"						"10000"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+        "ItemStackable"					"1"
+        "ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemDisplayCharges"			"1"
+        "ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+	}
+}

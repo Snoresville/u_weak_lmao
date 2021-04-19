@@ -81,3 +81,5 @@
 		"ItemInitialStockTimeTurbo"		"0"
 	}
 }
+
+#base "../vscripts/items/declarations.txt"
